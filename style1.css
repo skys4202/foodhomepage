@@ -1,0 +1,290 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+font-family: 'Open Sans', sans-serif;
+text-decoration: none;
+user-select: none;
+scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FBF7F9;
+}
+
+header{
+    position: fixed;
+    background: #FFFEFF;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 0 .1px  rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 0 100px 0 100px;
+    z-index: 1;
+}
+
+.logo i{
+    color: #FA5042;
+    padding-right: 5px;
+}
+
+header .logo{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a:link,
+a:visited{
+    color: #9C989A;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    color: #9C989A;
+    padding: 0 30px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+
+.title ul li a:hover{
+    color: black;
+    transition: .2s;
+}
+
+
+#wrap{
+    text-align: center;
+}
+
+#wrap-center{
+    position: relative;
+    width: 1901px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #FBF7F9;
+}
+
+#main{
+    height: 3100px;
+    
+}
+
+.first{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background: #FBF7F9;
+}
+
+.first h1{
+    font-weight: bold;
+    font-size: 70px;
+    text-align:start;
+    padding-top: 250px;
+    padding-left: 150px;
+}
+
+.first p{
+    font-weight: bold;
+    text-align:start;
+    padding-left: 150px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.orderbtn{
+    transform: translateX(-725px);
+    padding-top: 20px;
+}
+
+.orderbtn button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #FA5042;
+    background: transparent;
+    outline: none;
+    color: #FA5042;
+    font-size: 17px;
+    font-weight: bold;
+    transition: .25s ease;
+}
+
+.orderbtn button:hover{
+    background: #FA5042;
+    color: white;
+}
+
+.orderbtn button:active{
+    transform: scale(0.96);
+}
+
+
+.firstham img{
+    transform: translateX(350px);
+    position: relative;
+    bottom: 430px;
+}
+
+.col{
+    position: relative;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 400px 400px 400px;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.second{
+    position: relative;
+    background: #FBF7F9;
+    width: 100%;
+    height: 900px;
+}
+
+.secondtitle,
+.thirdtitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card{
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+    border: 1px solid white;
+    box-shadow: 0 .1px  rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 30px;
+    background: #FFFEFF;
+    transition: .4s ease-in-out;
+    border-radius: 5px;
+
+}
+
+.card i{
+    font-size: 60px;
+    color: #FA5042;
+}
+
+.card h2{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card p{
+   font-size: 20px;
+   font-weight: bold;
+   padding: 20px;
+}
+
+.card:hover{
+   border: 1px solid gray;
+}
+
+.secondtitle span:nth-child(1),
+.thirdtitle span:nth-child(1) {
+    color: #FA5042;
+   }
+
+
+.third{
+   height: 1350px;
+   background: #FBF7F9;
+   padding-top: 130px;
+}
+
+.thirdtitle{
+    padding: 10px;
+}
+
+.thirdimg{
+    width: 450px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.popularfood{
+    position: relative;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 550px 550px 550px;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.foodcard{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    border: 1px solid white;
+    box-shadow: 0 .1px  rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 30px;
+    background: #FFFEFF;
+    transition: .4s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.third h3{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.third i{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+.star{
+    color: #E2B500;
+}
+
+.thirdbutton{
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #FA5042;
+    background: transparent;
+    outline: none;
+    color: #FA5042;
+    font-size: 17px;
+    font-weight: bold;
+    transition: .25s ease;
+    cursor: pointer;
+}
+
+.thirdbtn:active{
+    transform: scale(0.96);
+}
+
+.thirdbtn{
+    padding: 15px;
+}
+
+.thirdbutton:hover{
+    background: #FA5042;
+    color: white;
+}
+
